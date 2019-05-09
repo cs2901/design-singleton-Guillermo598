@@ -3,7 +3,7 @@ public class ChocolateBoiler {
     private boolean boiled;
     private static ChocolateBoiler instance;
 
-    public ChocolateBoiler() {
+    private ChocolateBoiler() {
         empty = true;
         boiled = false;
     }
